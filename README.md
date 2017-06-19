@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Ship-It
+Program to track different parcels, letters and shipments across several tracking API providers.
 
-You can use the [editor on GitHub](https://github.com/katseiko/Ship-It/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Planned Tracking Providers
+I would like the program to allow tracking for the most common tracking providers across Central Europe and the USA/Canada:
+- DHL
+- FedEx
+- UPS
+- GLS
+- Deutsche Post Mail
+- DPD
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Suggestions for additional providers and their trackers are welcome.
 
-### Markdown
+## Technology
+In order to make this program available for Android, iOS and Windows with a common code base on C#, this project will use the **Xamarin Framework**.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Related Downloads
+[Visual Studio 2017](https://www.visualstudio.com/vs/)
 
-```markdown
-Syntax highlighted code block
+[Visual Studio 2017 for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/katseiko/Ship-It/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Branching
+Work will be done mainly on the _master_ branch, new tracking providers will be initially added on a _feature_ branch that will be merged into the master branch after review.
