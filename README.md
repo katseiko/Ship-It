@@ -30,6 +30,9 @@ In order to make sure that everyone can participate and contribute effectively, 
 Work will be done mainly on the _master_ branch, new tracking providers will be initially added on a _feature_ branch that will be merged into the master branch after review.
 
 ## Coding Guidelines
+### Architectural pattern
+This project will use the Model-View-ViewModel (MVVM) pattern (see e.g. [Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) for explanation.)
+
 ### Indentations
 - Use tabs, not spaces.
 - Please make sure you tabify your work before submitting it.
